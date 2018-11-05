@@ -13,4 +13,6 @@ It's not strict with only the RE to NFA conversion. Since in RE to NFA conversio
 
 But this "pool" will call its objects destructor (more general).
 
-I am still confused about the operator new/delete..., so it's a great pleasure for me to accept other's advice, for example, is this implementation safe? Also, i am really looking forward to receive more test cases to test this naive implementation(though i know no one will look at this repo, and i am just typing for myself).
+I am still confused about the operator new/delete..., so it's a great pleasure for me to accept other's advice, for example, is this implementation safe? Also, i am really looking forward to receive more test cases to test this naive implementation (though i know no one will look at this repo, and i am just typing for myself).
+
+Also, for the code, i am eager to receive some advices.
