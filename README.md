@@ -1,6 +1,6 @@
 # memory-pool
 
-This is a by-product when i am doing my compile lesson's work. In the phase of RE to NFA, i have to create a lot of state and edge on the heap. So thanks for 大牛vzch's advice, i try to implement a pool to manage the construction and destruction.
+This is a by-product when i am doing my compile lesson's work. In the phase of RE to NFA, i have to create a lot of state and edge on the heap. So thanks for 大牛vzch's zhihu answer, i try to implement a pool to manage the construction and destruction.
 
 So, this is not an actual "memory-pool", for each instantiated template FixedMemoryPool, it can only create one kind of object, and you can't deallocate during the Pool's lifecycle. All objects's destruction is finished at the pool's destruction phase.
 
