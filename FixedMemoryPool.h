@@ -86,8 +86,8 @@ class FixedMemoryPool
         blockPtr next;
 
         template
-            <typename... Args>
-            T* construct(Args&&... args)
+        <typename... Args>
+        T* construct(Args&&... args)
         {
             return new (data + (allocatedCounter++)) T(std::forward<Args>(args)...);
         }
